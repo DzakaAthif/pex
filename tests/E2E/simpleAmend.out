@@ -1,0 +1,196 @@
+[PEX] Starting
+[PEX] Trading 2 products: Wine Avocado
+[PEX] Created FIFO /tmp/pe_exchange_0
+[PEX] Created FIFO /tmp/pe_trader_0
+[PEX] Starting trader 0 (./trader1)
+[PEX] Connected to /tmp/pe_exchange_0
+[PEX] Connected to /tmp/pe_trader_0
+[PEX] [T0] Parsing command: <BUY 0 Avocado 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 0 100 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 100 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 0 100 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <SELL 1 Wine 100 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 100 @ $110 (1 order)
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 1 50 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $110 (1 order)
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 1 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <BUY 2 Avocado 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <BUY 3 Avocado 50 101>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]		BUY 50 @ $101 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <BUY 4 Avocado 50 102>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 4; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]		BUY 50 @ $102 (1 order)
+[PEX]		BUY 50 @ $101 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <SELL 5 Wine 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 100 @ $100 (2 orders)
+[PEX]	Product: Avocado; Buy levels: 4; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]		BUY 50 @ $102 (1 order)
+[PEX]		BUY 50 @ $101 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <SELL 6 Wine 50 101>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 2
+[PEX]		SELL 50 @ $101 (1 order)
+[PEX]		SELL 100 @ $100 (2 orders)
+[PEX]	Product: Avocado; Buy levels: 4; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]		BUY 50 @ $102 (1 order)
+[PEX]		BUY 50 @ $101 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <SELL 7 Wine 50 102>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 3
+[PEX]		SELL 50 @ $102 (1 order)
+[PEX]		SELL 50 @ $101 (1 order)
+[PEX]		SELL 100 @ $100 (2 orders)
+[PEX]	Product: Avocado; Buy levels: 4; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]		BUY 50 @ $102 (1 order)
+[PEX]		BUY 50 @ $101 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 2 60 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 3
+[PEX]		SELL 50 @ $102 (1 order)
+[PEX]		SELL 50 @ $101 (1 order)
+[PEX]		SELL 100 @ $100 (2 orders)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 160 @ $110 (2 orders)
+[PEX]		BUY 50 @ $102 (1 order)
+[PEX]		BUY 50 @ $101 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 3 70 120>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 3
+[PEX]		SELL 50 @ $102 (1 order)
+[PEX]		SELL 50 @ $101 (1 order)
+[PEX]		SELL 100 @ $100 (2 orders)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 70 @ $120 (1 order)
+[PEX]		BUY 160 @ $110 (2 orders)
+[PEX]		BUY 50 @ $102 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 4 80 130>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 3
+[PEX]		SELL 50 @ $102 (1 order)
+[PEX]		SELL 50 @ $101 (1 order)
+[PEX]		SELL 100 @ $100 (2 orders)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 80 @ $130 (1 order)
+[PEX]		BUY 70 @ $120 (1 order)
+[PEX]		BUY 160 @ $110 (2 orders)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 5 60 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 4
+[PEX]		SELL 60 @ $110 (1 order)
+[PEX]		SELL 50 @ $102 (1 order)
+[PEX]		SELL 50 @ $101 (1 order)
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 80 @ $130 (1 order)
+[PEX]		BUY 70 @ $120 (1 order)
+[PEX]		BUY 160 @ $110 (2 orders)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 6 70 120>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 4
+[PEX]		SELL 70 @ $120 (1 order)
+[PEX]		SELL 60 @ $110 (1 order)
+[PEX]		SELL 50 @ $102 (1 order)
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 80 @ $130 (1 order)
+[PEX]		BUY 70 @ $120 (1 order)
+[PEX]		BUY 160 @ $110 (2 orders)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <AMEND 7 80 130>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 4
+[PEX]		SELL 80 @ $130 (1 order)
+[PEX]		SELL 70 @ $120 (1 order)
+[PEX]		SELL 60 @ $110 (1 order)
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 3; Sell levels: 0
+[PEX]		BUY 80 @ $130 (1 order)
+[PEX]		BUY 70 @ $120 (1 order)
+[PEX]		BUY 160 @ $110 (2 orders)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] Trader 0 disconnected
+[PEX] Trading completed
+[PEX] Exchange fees collected: $0

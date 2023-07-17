@@ -1,0 +1,9 @@
+GRAB 0 Avocado 50 100;
+TOSS 0 Avocado 50 100;
+123 0 Avocado 50 100;
+0 Avocado 50 100;
+SELL1 0 Avocado 50 100;
+BUY1 0 Avocado 50 100;
+BUY 0 Avocado 50 100;
+AMEND1 0 60 110;
+CANCEL1 0;

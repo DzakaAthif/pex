@@ -1,0 +1,52 @@
+[PEX] Starting
+[PEX] Trading 2 products: Wine Avocado
+[PEX] Created FIFO /tmp/pe_exchange_0
+[PEX] Created FIFO /tmp/pe_trader_0
+[PEX] Starting trader 0 (./trader1)
+[PEX] Connected to /tmp/pe_exchange_0
+[PEX] Connected to /tmp/pe_trader_0
+[PEX] [T0] Parsing command: <BUY 1 Avocado 50 100>
+[PEX] [T0] Parsing command: <BUY 0 Avocado 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <BUY 2 Avocado 50 110>
+[PEX] [T0] Parsing command: <BUY 3 Avocado 50 110>
+[PEX] [T0] Parsing command: <BUY 4 Avocado 50 110>
+[PEX] [T0] Parsing command: <BUY 1000000 Avocado 50 100>
+[PEX] [T0] Parsing command: <BUY -1 Avocado 50 100>
+[PEX] [T0] Parsing command: <BUY -100 Avocado 50 100>
+[PEX] [T0] Parsing command: <BUY abc Avocado 50 100>
+[PEX] [T0] Parsing command: <BUY 1.5 Avocado 50 100>
+[PEX] [T0] Parsing command: <SELL 1 Wine 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <SELL 3 Wine 50 110>
+[PEX] [T0] Parsing command: <SELL 4 Wine 50 110>
+[PEX] [T0] Parsing command: <SELL 5 Wine 50 110>
+[PEX] [T0] Parsing command: <SELL 1000000 Wine 50 100>
+[PEX] [T0] Parsing command: <SELL -1 Wine 50 100>
+[PEX] [T0] Parsing command: <SELL -100 Wine 50 100>
+[PEX] [T0] Parsing command: <SELL abc Wine 50 100>
+[PEX] [T0] Parsing command: <SELL 1.5 Wine 50 100>
+[PEX] [T0] Parsing command: <AMEND -1 50 100>
+[PEX] [T0] Parsing command: <AMEND -100 50 100>
+[PEX] [T0] Parsing command: <AMEND 1000000 50 100>
+[PEX] [T0] Parsing command: <AMEND abc 50 100>
+[PEX] [T0] Parsing command: <AMEND 1.5 50 100>
+[PEX] [T0] Parsing command: <CANCEL -1>
+[PEX] [T0] Parsing command: <CANCEL -100>
+[PEX] [T0] Parsing command: <CANCEL 1000000>
+[PEX] [T0] Parsing command: <CANCEL abc>
+[PEX] [T0] Parsing command: <CANCEL 1.5>
+[PEX] Trader 0 disconnected
+[PEX] Trading completed
+[PEX] Exchange fees collected: $0

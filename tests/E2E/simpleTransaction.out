@@ -1,0 +1,156 @@
+[PEX] Starting
+[PEX] Trading 2 products: Wine Avocado
+[PEX] Created FIFO /tmp/pe_exchange_0
+[PEX] Created FIFO /tmp/pe_trader_0
+[PEX] Starting trader 0 (./trader1)
+[PEX] Connected to /tmp/pe_exchange_0
+[PEX] Connected to /tmp/pe_trader_0
+[PEX] [T0] Parsing command: <SELL 0 Avocado 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($0)
+[PEX] [T0] Parsing command: <BUY 1 Avocado 50 100>
+[PEX] Match: Order 0 [T0], New Order 1 [T0], value: $5000, fee: $50.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($-50)
+[PEX] [T0] Parsing command: <BUY 2 Wine 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($0), Avocado 0 ($-50)
+[PEX] [T0] Parsing command: <SELL 3 Wine 50 100>
+[PEX] Match: Order 2 [T0], New Order 3 [T0], value: $5000, fee: $50.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-50), Avocado 0 ($-50)
+[PEX] [T0] Parsing command: <SELL 4 Avocado 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-50), Avocado 0 ($-50)
+[PEX] [T0] Parsing command: <BUY 5 Avocado 50 110>
+[PEX] Match: Order 4 [T0], New Order 5 [T0], value: $5000, fee: $50.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-50), Avocado 0 ($-100)
+[PEX] [T0] Parsing command: <BUY 6 Wine 50 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $110 (1 order)
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-50), Avocado 0 ($-100)
+[PEX] [T0] Parsing command: <SELL 7 Wine 50 100>
+[PEX] Match: Order 6 [T0], New Order 7 [T0], value: $5500, fee: $55.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-105), Avocado 0 ($-100)
+[PEX] [T0] Parsing command: <SELL 8 Avocado 100 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 100 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-105), Avocado 0 ($-100)
+[PEX] [T0] Parsing command: <BUY 9 Avocado 50 100>
+[PEX] Match: Order 8 [T0], New Order 9 [T0], value: $5000, fee: $50.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-105), Avocado 0 ($-150)
+[PEX] [T0] Parsing command: <BUY 10 Avocado 50 110>
+[PEX] Match: Order 8 [T0], New Order 10 [T0], value: $5000, fee: $50.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-105), Avocado 0 ($-200)
+[PEX] [T0] Parsing command: <BUY 11 Wine 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-105), Avocado 0 ($-200)
+[PEX] [T0] Parsing command: <BUY 12 Wine 50 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 2; Sell levels: 0
+[PEX]		BUY 50 @ $110 (1 order)
+[PEX]		BUY 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-105), Avocado 0 ($-200)
+[PEX] [T0] Parsing command: <SELL 13 Wine 100 100>
+[PEX] Match: Order 12 [T0], New Order 13 [T0], value: $5500, fee: $55.
+[PEX] Match: Order 11 [T0], New Order 13 [T0], value: $5000, fee: $50.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-210), Avocado 0 ($-200)
+[PEX] [T0] Parsing command: <BUY 14 Avocado 100 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 100 @ $110 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-210), Avocado 0 ($-200)
+[PEX] [T0] Parsing command: <SELL 15 Avocado 50 100>
+[PEX] Match: Order 14 [T0], New Order 15 [T0], value: $5500, fee: $55.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 1; Sell levels: 0
+[PEX]		BUY 50 @ $110 (1 order)
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-210), Avocado 0 ($-255)
+[PEX] [T0] Parsing command: <SELL 16 Avocado 50 110>
+[PEX] Match: Order 14 [T0], New Order 16 [T0], value: $5500, fee: $55.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-210), Avocado 0 ($-310)
+[PEX] [T0] Parsing command: <SELL 17 Wine 50 100>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 1
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-210), Avocado 0 ($-310)
+[PEX] [T0] Parsing command: <SELL 18 Wine 50 110>
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 2
+[PEX]		SELL 50 @ $110 (1 order)
+[PEX]		SELL 50 @ $100 (1 order)
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-210), Avocado 0 ($-310)
+[PEX] [T0] Parsing command: <BUY 19 Wine 100 110>
+[PEX] Match: Order 17 [T0], New Order 19 [T0], value: $5000, fee: $50.
+[PEX] Match: Order 18 [T0], New Order 19 [T0], value: $5500, fee: $55.
+[PEX]	--ORDERBOOK--
+[PEX]	Product: Wine; Buy levels: 0; Sell levels: 0
+[PEX]	Product: Avocado; Buy levels: 0; Sell levels: 0
+[PEX]	--POSITIONS--
+[PEX]	Trader 0: Wine 0 ($-315), Avocado 0 ($-310)
+[PEX] Trader 0 disconnected
+[PEX] Trading completed
+[PEX] Exchange fees collected: $625

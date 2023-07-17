@@ -1,0 +1,16 @@
+BUY 0 Avocado 50;
+BUY 0 Avocado;
+BUY 0 Avocado 50 100 100;
+BUY 0 Avocado 50 100 1 2 3 4;
+;
+SELL 0 Avocado 50;
+SELL 0 Avocado;
+SELL 0 Avocado 50 100 100;
+SELL 0 Avocado 50 100 1 2 3 4;
+BUY 0 Avocado 50 100;
+AMEND 0 60;
+AMEND 0;
+AMEND 0 60 110 100;
+AMEND 0 60 110 1 2 3 4;
+CANCEL;
+CANCEL 1 2 3 4;

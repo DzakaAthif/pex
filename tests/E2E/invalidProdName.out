@@ -1,0 +1,18 @@
+[PEX] Starting
+[PEX] Trading 2 products: Wine Avocado
+[PEX] Created FIFO /tmp/pe_exchange_0
+[PEX] Created FIFO /tmp/pe_trader_0
+[PEX] Starting trader 0 (./trader1)
+[PEX] Connected to /tmp/pe_exchange_0
+[PEX] Connected to /tmp/pe_trader_0
+[PEX] [T0] Parsing command: <BUY 0 Avocado1 50 100>
+[PEX] [T0] Parsing command: <BUY 0 RandomName 50 100>
+[PEX] [T0] Parsing command: <BUY 0 12345 50 100>
+[PEX] [T0] Parsing command: <BUY 0 50 100>
+[PEX] [T0] Parsing command: <SELL 0 Avocado1 50 100>
+[PEX] [T0] Parsing command: <SELL 0 RandomName 50 100>
+[PEX] [T0] Parsing command: <SELL 0 12345 50 100>
+[PEX] [T0] Parsing command: <SELL 50 100>
+[PEX] Trader 0 disconnected
+[PEX] Trading completed
+[PEX] Exchange fees collected: $0
